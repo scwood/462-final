@@ -25,6 +25,10 @@ io.on('connection', function(socket) {
     socket.emit('tweet', tweet);
   });
 
+  twitter.on('error', function(error) {
+    console.log(error)
+  })
+
   socket.on('keyword', function(newKeyword) {
     if (keyword) {
       twitter.untrack(keyword);
