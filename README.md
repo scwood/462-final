@@ -3,6 +3,7 @@ TODO
 - Second express server for Translations
   - Detect the language with Google translate
   - Translate to the target language
+  - Provide API call to get list of supported languages
 - API call to get list of languages
 - Front end
   - Connect list of languages to dropdown
