@@ -1,7 +1,7 @@
 if (location.hostname === "localhost") {
   var translationBaseUrl = 'http://localhost:3001';
 } else {
-  var translationBaseUrl = 'https://translation.462.spncrwd.com';
+  var translationBaseUrl = 'https://translate.462.spncrwd.com';
 } 
 
 $(function() {
